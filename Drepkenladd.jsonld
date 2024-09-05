@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "qualifications": "CIP119:qualifications",
+        "paymentAddress": "CIP119:paymentAddress",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "Other": "CIP100:OtherReference",
+            "Link": "CIP100:LinkReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Ken Ladd",
+    "bio": "In 2020, I was inspired to combine my passions for Cardano and the law. Having recently completed my Juris Doctor, I aim to contribute to Cardano as an attorney (pending 2025 Wyoming bar exam). As a DRep, my objective is to support and safeguard Cardano for current and future generations. My decision-making process is informed by a decade of experience in the military, federal law enforcement, and regulatory compliance.",
+    "email": "Cardanoesq@protonmail.com",
+    "paymentAddress": "Addr1q9dgqc8sff6hdt3qernl40qxpfm84sh6c03s6ar2atwc2vnmk83cxgzkmavq3hwt9syymzv2tuek6zacfpw4flx0fewqh77e0z",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/cardanoesq/drep/792809e317fc0b3d0e74b02131b207972cd5bef4/Photo.jpg",
+      "sha256": "80bd0f68caa1f299d2d87a75e47e2b1ca2090003927d28db1d3cea6de03af090"
+    },
+    "objectives": "(1) Promote long-term vision over short-term benefits\n(2) Balance treasury use and preservation\n(3) Encourage transparent, collaborative funding processes. Unexpected treasury withdrawal governance actions necessitate heightened scrutiny\n(4) Assert that governance action proposers bear the burden of proof — demonstrating alignment with Cardano's long-term interest. The standard increases with cost and potential impact. Proposers must objectively articulate benefits and drawbacks — coherent arguments for why, on balance, the action should be ratified\n(5) Leverage critical thinking and reasoned decision-making methodologies. I seek out information, weigh available evidence, then arrive at provisional conclusions — adjusted by overriding evidence and arguments. Nontechnical and technical matters, alike.\n(6) Transparently uphold specific tenets of ethical conduct. I'll provide a comprehensive list of ethical commitments and means for their implementation prior to Chang+1",
+    "qualifications": "(Education) Bachelor of Science from The U.S. Military Academy at West Point in American Legal Studies, Counterterrorism, Systems Engineering; Master of Professional Studies from Pennsylvania State University in Homeland Security, Geospatial Intelligence; Juris Doctor and Intellectual Property Graduate Certificate from UNH Franklin Pierce School of Law\n(Certifications) Cardano Blockchain Certified Associate, Certified Fraud Examiner, Certified Cryptocurrency Forensic Investigator\n(Cardano) Community member since 2020; Chicagoland and Las Vegas DRep Pioneer Workshops; Las Vegas Constitutional Workshop; Will attend Chicago and Fort Myers Constitutional Workshops, Cardano Summit\n(Experience) U.S. Army Officer, accountable for my soldiers and $30M+ in sensitive military equipment, held a Top Secret/SCI clearance; Federal Regulatory Investigator for the U.S. Department of Labor, led 112 investigations covering nine federal statutes, recovered $1.96M+ in unpaid wages and associated penalties.",
+    "motivations": "Decentralized self-governance represents a paradigm shift in how people and institutions interact. Cardano offers the promise of a superior substrate: decentralized global infrastructure hosting identity, value, and governance. In the near term, it can positively influence traditional institutions. In the long-term, it could transform or displace them.\nMy primary motivation is the beneficial impact this could have on future generations. For my daughters, for their children, onwards.\n \nWe need a diverse range of DReps, each enriching the collective decision-making process through their unique perspectives. To that end, with Cardano's long-term success as my focus, I'm excited for the opportunity to offer my knowledge, experience, and resulting insights as a DRep.\nPlease note: DRep delegation creates no professional relationship or fiduciary duty. I act in a personal capacity, not as a legal or financial advisor. Delegators are responsible for their own decisions and compliance.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X (Twitter)",
+        "uri": "https://x.com/cardanoesq"
+      },
+      {
+        "@type": "Link",
+        "label": "LinkedIn",
+        "uri": "https://www.linkedin.com/in/kendrickwladd/"
+      },
+      {
+        "@type": "Link",
+        "label": "LinkTree",
+        "uri": "https://linktr.ee/cardanoesq"
+      },
+      {
+        "@type": "Link",
+        "label": "Telegram",
+        "uri": "https://t.me/cardanoesq"
+      }
+    ]
+  }
+}
